@@ -1,17 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
     <title>run-speedster.js</title>
 </head>
 <style>
-    
+    body {
+        margin: 0;
+    }
+
+    .race-path,
+    .run-text {
+        position: absolute;
+
+        top: 50%;
+        width: 100%;
+        height: 50px;
+        margin: 0 auto;
+    }
+
+
+    .run-text {
+        position: absolute;
+        top: 50%;
+        margin: 0 auto;
+        text-align: center;
+        width: 100%;
+        font: 600 2em "Lato", sans-serif;
+        font-style: italic;
+    }
 </style>
+
 <body>
-      <div class="flash-run">
+    <p class="run-text">run-speedster.js</p>
+    <div class="race-path">
     </div>
-<script src="src/run-speedster.js"></script>
+    <script src="src/run-speedster.js">
+
+    </script>
 </body>
+
 </html>
