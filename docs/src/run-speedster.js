@@ -29,7 +29,7 @@ var createRunner = async (racePath,runText, config) => {
         .then((properties) => {
             details = properties;
             Object.assign(speedster.style, {
-                'background': `url(../img/${details.runner}.svg) center no-repeat`,
+                'background': `url(img/${details.runner}.svg) center no-repeat`,
                 'background-size': `${details.howBig}px ${details.howBig}px`,
                 'width': `${details.howBig}px`,
                 'height': `${details.howBig}px`,
