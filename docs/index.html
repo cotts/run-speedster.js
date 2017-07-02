@@ -9,11 +9,11 @@
 <style>
     body {
         margin: 0;
-        background: #DDD;
+        background: #EEE;
     }
 
-    .race-path,
-    .run-text {
+    .race-path, .run-text
+  {
         position: absolute;
 
         top: 50%;
@@ -24,22 +24,27 @@
 
 
     .run-text {
-        position: absolute;
-        top: 50%;
-        margin: 0 auto;
+        line-height: 3em;
         text-align: center;
         width: 100%;
         font: 600 3em "Lato", sans-serif;
         font-style: italic;
     }
+    p {
+        top:50%;
+        text-align: center;
+        margin: auto;
+    }
 </style>
 
 <body>
-    <p class="run-text">run-speedster.js</p>
+    <section class="run-text"> <p>run-speedster.js</p> </section>
     <div class="race-path">
     </div>
-    <script src="src/run-speedster.js">
+    <script src="../src/run-speedster.js"></script>
+    <script>  
 
+    RunSpeedster.init('.race-path','.run-text', { 'runner': 'standard', 'speed': 60, 'disappear': true });   
     </script>
 </body>
 
