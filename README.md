@@ -64,3 +64,4 @@ RunSpeedster.init(
 * Increase the performance of the module
 * JS Functional Pattern
 * Correct some metrics of the Math inside the code.
+* Create UNIT Tests

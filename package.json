@@ -1,0 +1,24 @@
+{
+  "name": "run-speedster.js",
+  "version": "0.0.1",
+  "description": "Animated JS Speedster run with only JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/cotts/run-speedster.js"
+  },
+  "keywords": [
+    "Javascript",
+    "DC",
+    "The",
+    "Flash",
+    "run",
+    "animated",
+    "shadow"
+  ],
+  "author": "Thadeu Cotts",
+  "license": "MIT"
+}
